@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 , glue = { "steps" },
  dryRun = false,
  monochrome = true,
- strict= true, //check if any step definition is not defined
+ strict= true, //check if any step definition is not defined. testing
  plugin = {"pretty", "html:test-output"}
  )
 

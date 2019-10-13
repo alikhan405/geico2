@@ -1,5 +1,2 @@
-page\ListAccountPage.class
-page\NewAccountPage.class
 util\BrowserFactory.class
-page\SideNavigation.class
 page\LoginPage.class

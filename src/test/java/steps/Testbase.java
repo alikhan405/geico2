@@ -14,7 +14,7 @@ public class Testbase {
 		
 		
 		// Convert web driver object to TakeScreenshot
-        TakesScreenshot scrShot = ((TakesScreenshot) driver);
+        TakesScreenshot scrShot = ((TakesScreenshot) driver);//testing
          // Call getScreenshotAs method to create image file
          File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
          // Move image file to new destination

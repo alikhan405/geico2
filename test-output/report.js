@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4423105800,
+  "duration": 5187666900,
   "status": "passed"
 });
 formatter.scenario({
@@ -42,32 +42,32 @@ formatter.match({
   "location": "LoginSteps.user_is_already_on_website()"
 });
 formatter.result({
-  "duration": 191318600,
+  "duration": 204042600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_click_on_Set_Skyblue_Background()"
 });
 formatter.result({
-  "duration": 421636700,
+  "duration": 443762400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_is_able_to_change_background_color_to_skyblue()"
 });
 formatter.result({
-  "duration": 72242500,
+  "duration": 83337200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.website_closes_after_test_is_successfull()"
 });
 formatter.result({
-  "duration": 793020800,
+  "duration": 879996900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2899577900,
+  "duration": 3001266200,
   "status": "passed"
 });
 formatter.scenario({
@@ -102,28 +102,28 @@ formatter.match({
   "location": "LoginSteps.user_is_already_on_website()"
 });
 formatter.result({
-  "duration": 28000,
+  "duration": 44500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_click_on_Set_White_Background()"
 });
 formatter.result({
-  "duration": 171605600,
+  "duration": 493842700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_is_able_to_change_background_color_to_White()"
 });
 formatter.result({
-  "duration": 51456200,
+  "duration": 43692500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.website_closes_after_test_is_successfull()"
 });
 formatter.result({
-  "duration": 732144600,
+  "duration": 724408900,
   "status": "passed"
 });
 });
