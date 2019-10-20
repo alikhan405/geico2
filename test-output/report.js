@@ -1,129 +1,165 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/new/eclipse-workspace1/BDDFramework/src/test/java/features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("/Users/new/eclipse-workspace1/GeicoBDDFramework/src/test/java/features/login.feature");
 formatter.feature({
   "line": 1,
-  "name": "Change Color of Webpage",
+  "name": "Valid user login",
   "description": "",
-  "id": "change-color-of-webpage",
+  "id": "valid-user-login",
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5187666900,
+  "duration": 7443399400,
   "status": "passed"
 });
 formatter.scenario({
   "line": 3,
-  "name": "Changing Background Page Color to Blue",
+  "name": "valid user login to account",
   "description": "",
-  "id": "change-color-of-webpage;changing-background-page-color-to-blue",
+  "id": "valid-user-login;valid-user-login-to-account",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "User is already on website",
+  "line": 7,
+  "name": "User Enter Id and Password",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
-  "name": "User click on Set Skyblue Background",
-  "keyword": "When "
-});
-formatter.step({
   "line": 9,
-  "name": "User is able to change background color to skyblue",
+  "name": "User is able to login",
   "keyword": "Then "
 });
 formatter.step({
   "line": 11,
-  "name": "website closes after test is successfull",
+  "name": "user is on Online Banking console",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginSteps.user_is_already_on_website()"
+  "location": "LoginSteps.User_Enter_Id_and_Password()"
 });
 formatter.result({
-  "duration": 204042600,
+  "duration": 3481625500,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.user_click_on_Set_Skyblue_Background()"
+  "location": "LoginSteps.user_is_able_to_login()"
 });
 formatter.result({
-  "duration": 443762400,
+  "duration": 7454767200,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.user_is_able_to_change_background_color_to_skyblue()"
+  "location": "LoginSteps.user_is_on_Online_Banking_console()"
 });
 formatter.result({
-  "duration": 83337200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.website_closes_after_test_is_successfull()"
-});
-formatter.result({
-  "duration": 879996900,
+  "duration": 160506200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3001266200,
+  "duration": 5709804100,
   "status": "passed"
 });
 formatter.scenario({
   "line": 15,
-  "name": "Changing Background Page Color to White",
+  "name": "Get quote on new car",
   "description": "",
-  "id": "change-color-of-webpage;changing-background-page-color-to-white",
+  "id": "valid-user-login;get-quote-on-new-car",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 17,
-  "name": "User is already on website",
+  "line": 19,
+  "name": "User is no geico.com",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 19,
-  "name": "User click on Set White Background",
+  "line": 21,
+  "name": "Enter zip and start quote",
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
-  "name": "User is able to change background color to White",
+  "line": 23,
+  "name": "Customer enter name and dob and address",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 23,
-  "name": "website closes after test is successfull",
+  "line": 25,
+  "name": "user can add car info and ownwership",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "user enters driving habits",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 29,
+  "name": "user slects days of driving and miles",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "user verfies Annual Milleage and go next",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 33,
+  "name": "verify personal info",
   "keyword": "And "
 });
 formatter.match({
-  "location": "LoginSteps.user_is_already_on_website()"
+  "location": "LoginSteps.user_is_no_geico_com()"
 });
 formatter.result({
-  "duration": 44500,
+  "duration": 8446900,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.user_click_on_Set_White_Background()"
+  "location": "LoginSteps.enter_zip_and_start_quote()"
 });
 formatter.result({
-  "duration": 493842700,
+  "duration": 3352624600,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.user_is_able_to_change_background_color_to_White()"
+  "location": "LoginSteps.customer_enter_name_and_dob_and_address()"
 });
 formatter.result({
-  "duration": 43692500,
+  "duration": 7644690500,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginSteps.website_closes_after_test_is_successfull()"
+  "location": "LoginSteps.user_can_add_car_info_and_ownwership()"
 });
 formatter.result({
-  "duration": 724408900,
+  "duration": 6360411300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.user_enters_driving_habits()"
+});
+formatter.result({
+  "duration": 1315539500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.user_slects_days_of_driving_and_miles()"
+});
+formatter.result({
+  "duration": 34700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.user_verfies_Annual_Milleage_and_go_next()"
+});
+formatter.result({
+  "duration": 33400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.verify_personal_info()"
+});
+formatter.result({
+  "duration": 16200,
   "status": "passed"
 });
 });
